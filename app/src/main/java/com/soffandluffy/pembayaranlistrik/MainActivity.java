@@ -41,13 +41,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        final Calendar c = Calendar.getInstance();
-        final MonthPickerDialog.Builder builder = new MonthPickerDialog.Builder(MainActivity.this, new MonthPickerDialog.OnDateSetListener() {
-            @Override
-            public void onDateSet(int selectedMonth, int selectedYear) {
 
-            }
-        },c.get(Calendar.YEAR),c.get(Calendar.MONTH));
 
         tvBulan =(TextView) findViewById(R.id.tvBulan);
 
@@ -55,17 +49,7 @@ public class MainActivity extends AppCompatActivity {
         btnBulan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                builder.showMonthOnly()
-                        .setOnMonthChangedListener(new MonthPickerDialog.OnMonthChangedListener() {
-                            @Override
-                            public void onMonthChanged(int selectedMonth) {
-                                choosenMonth = selectedMonth + 1;
-                                tvBulan.setText(Integer.toString(choosenMonth));
-                                Log.d("MainActivity", "Selected month : " + choosenMonth);
-                            }
-                        })
-                        .build()
-                        .show();
+
             }
         });
 

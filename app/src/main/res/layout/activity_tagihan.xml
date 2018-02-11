@@ -6,6 +6,26 @@
     android:layout_height="match_parent"
     tools:context="com.soffandluffy.pembayaranlistrik.TagihanActivity">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:orientation="horizontal"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="        Id Pelanggan :     "/>
+
+        <TextView
+            android:id="@+id/tvIdPelanggan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID PELANGGAN"/>
+
+    </LinearLayout>
 
     <EditText
         android:id="@+id/etBulan"
@@ -16,7 +36,7 @@
         android:inputType="date"
         android:layout_marginStart="5dp"
         android:layout_marginEnd="5dp"
-        android:layout_marginTop="5dp"/>
+        android:layout_marginTop="15dp"/>
 
     <EditText
         android:id="@+id/etTahun"
@@ -40,8 +60,31 @@
         android:layout_marginEnd="5dp"/>
 
     <Spinner
+        android:id="@+id/spinStatus"
         android:layout_below="@id/etJumlahmeter"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:spinnerMode="dialog"></Spinner>
+        android:spinnerMode="dialog"
+        android:entries="@array/status"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"/>
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_below="@id/spinStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Tagihan"
+        android:textColor="@android:color/white"
+        android:background="@color/colorAccent"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"/>
+
+    <ListView
+        android:layout_below="@id/btnAdd"
+        android:id="@+id/listTagihan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
 </RelativeLayout>

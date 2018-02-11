@@ -6,6 +6,7 @@ package com.soffandluffy.pembayaranlistrik.models;
 
 public class Tagihan {
 
+    private String idPelanggan;
     private String bulan;
     private String tahun;
     private int jumlahMeter;
@@ -15,11 +16,20 @@ public class Tagihan {
 
     }
 
-    public Tagihan(String bulan, String tahun, int jumlahMeter, String status) {
+    public Tagihan(String idPelanggan,String bulan, String tahun, int jumlahMeter, String status) {
+        this.idPelanggan = idPelanggan;
         this.bulan = bulan;
         this.tahun = tahun;
         this.jumlahMeter = jumlahMeter;
         this.status = status;
+    }
+
+    public String getIdPelanggan() {
+        return idPelanggan;
+    }
+
+    public void setIdPelanggan(String idPelanggan) {
+        this.idPelanggan = idPelanggan;
     }
 
     public String getBulan() {
