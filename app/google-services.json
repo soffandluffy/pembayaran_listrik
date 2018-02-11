@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "950116066321",
+    "firebase_url": "https://pembayaranlistrik-d60a9.firebaseio.com",
+    "project_id": "pembayaranlistrik-d60a9",
+    "storage_bucket": "pembayaranlistrik-d60a9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:950116066321:android:791b25094304fb65",
+        "android_client_info": {
+          "package_name": "com.soffandluffy.pembayaranlistrik"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "950116066321-bhubebd6ehqjp1t56laceoacvu8cn4ks.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.soffandluffy.pembayaranlistrik",
+            "certificate_hash": "253e7cc81f00fbcbdfc98446c67af7656cd011f8"
+          }
+        },
+        {
+          "client_id": "950116066321-h6jubn1bk0vhhceh342agoc0oe28plqm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.soffandluffy.pembayaranlistrik",
+            "certificate_hash": "09670c5271b635034721b519ec1ac37e69301c84"
+          }
+        },
+        {
+          "client_id": "950116066321-5suutgoss6m1fa26a2se6lob9t1l0uon.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtqBbpmMEK3efb9TRITtkSSf-zbFsJE_w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "950116066321-5suutgoss6m1fa26a2se6lob9t1l0uon.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:950116066321:android:8f91b010550a4993",
+        "android_client_info": {
+          "package_name": "com.siswa_30.pembayaranlistrik"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "950116066321-p3cr4lc7fiamd41r3bepp8fhtgnqmkn5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.siswa_30.pembayaranlistrik",
+            "certificate_hash": "9b69bd53d620ab3e05fbfd2db8d9afda1036deee"
+          }
+        },
+        {
+          "client_id": "950116066321-5suutgoss6m1fa26a2se6lob9t1l0uon.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtqBbpmMEK3efb9TRITtkSSf-zbFsJE_w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "950116066321-5suutgoss6m1fa26a2se6lob9t1l0uon.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

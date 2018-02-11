@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.soffandluffy.pembayaranlistrik.TagihanActivity">
+
+
+    <EditText
+        android:id="@+id/etBulan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Bulan"
+        android:inputType="date"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginTop="5dp"/>
+
+    <EditText
+        android:id="@+id/etTahun"
+        android:layout_below="@id/etBulan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Tahun"
+        android:inputType="date"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"/>
+
+    <EditText
+        android:id="@+id/etJumlahmeter"
+        android:layout_below="@id/etTahun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Jumlah Meter"
+        android:inputType="number"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"/>
+
+    <Spinner
+        android:layout_below="@id/etJumlahmeter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dialog"></Spinner>
+</RelativeLayout>

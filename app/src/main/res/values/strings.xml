@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PembayaranListrik</string>
+
+    <array name="status">
+        <item name="lunas">Lunas</item>
+        <item name="belumlunas">Belum Lunas</item>
+    </array>
+</resources>
