@@ -1,22 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+<LinearLayout
     android:orientation="vertical"
-    tools:context="com.soffandluffy.pembayaranlistrik.PelangganActivity">
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/etIdPelanggan"
-        android:hint="ID Pelanggan"
-        android:backgroundTint="@color/colorAccent"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginTop="10dp"
-        />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -58,19 +46,35 @@
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"/>
 
-    <Button
+    <LinearLayout
+        android:layout_marginTop="5dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btnAdd"
-        android:text="Add"
-        android:textColor="@android:color/white"
-        android:background="@color/colorAccent"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"/>
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
 
-    <ListView
-        android:id="@+id/listPelanggan"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/btnUpdate"
+            android:text="Update"
+            android:textColor="@android:color/white"
+            android:background="@color/colorAccent"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/btnDelete"
+            android:text="Delete"
+            android:textColor="@android:color/white"
+            android:background="@color/colorAccent"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"/>
+
+    </LinearLayout>
 
 </LinearLayout>

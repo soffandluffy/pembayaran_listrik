@@ -21,9 +21,7 @@ public class MainActivity extends AppCompatActivity {
     private FirebaseDatabase database;
     private DatabaseReference mDatabase;
 
-    private Button btnPelanggan,btnBulan;
-    TextView tvBulan;
-    int choosenMonth = 2;
+    private Button btnPelanggan;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,21 +35,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, PelangganActivity.class));
-                finish();
             }
         });
-
-
-
-        tvBulan =(TextView) findViewById(R.id.tvBulan);
-
-        btnBulan = (Button) findViewById(R.id.btnBulan);
-        btnBulan.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-            }
-        });
-
     }
 }

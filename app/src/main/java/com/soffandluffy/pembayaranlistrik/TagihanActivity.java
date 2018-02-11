@@ -147,13 +147,13 @@ public class TagihanActivity extends AppCompatActivity {
         if (!TextUtils.isEmpty(idPelanggan) || !TextUtils.isEmpty(bulan) || !TextUtils.isEmpty(tahun) || !TextUtils.isEmpty(jumlahMeter) || !TextUtils.isEmpty(status)){
             Tagihan tagihan = new Tagihan(idPelanggan,bulan,tahun,Integer.valueOf(jumlahMeter),status);
             dbTagihans.child(idPelanggan).setValue(tagihan);
-            Toast.makeText(this, "Tagihan Saved", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Tagihan Saved", Toast.LENGTH_LONG).show();
             tvIdPelanggan.setText("");
             etBulan.setText("");
             etTahun.setText("");
             etJumlahmeter.setText("");
         } else {
-            Toast.makeText(this, "Please input all fields", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Please input all fields", Toast.LENGTH_LONG).show();
         }
     }
 }

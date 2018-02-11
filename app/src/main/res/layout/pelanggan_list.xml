@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="5dp"
+    android:padding="16dp"
     app:cardCornerRadius="5dp"
     >
         <LinearLayout
@@ -16,14 +16,15 @@
                 android:id="@+id/tvIdPelanggan"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:gravity="center_vertical"
                 android:text="idPelanggan"
-                android:padding="5dp"
-                />
+                android:padding="5dp"/>
             <TextView
                 android:id="@+id/tvNometer"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:text="Nometer"
                 android:padding="5dp"/>
 
@@ -52,6 +53,7 @@
                 android:id="@+id/tvDaya"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:gravity="center_vertical"
                 android:padding="5dp"
                 android:text="Daya"
@@ -60,6 +62,7 @@
                 android:id="@+id/tvTarif"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:gravity="center_vertical"
                 android:padding="5dp"
                 android:text="Tarif"
